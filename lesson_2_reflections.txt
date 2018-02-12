@@ -1,22 +1,44 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	On initializtion of a repository git crates a hidden directory with name .git which stores the metadata related to the contents of the directory from which I have initialized the repository. It is needed in order to track the history of changes made in the future.
+	On initializtion of a repository git crates a hidden directory with name .git
+	which stores the metadata related to the contents of the directory from which
+	I have initialized the repository. It is needed in order to track the history
+	of changes made in the future.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	staging area contains the files to be added from the working directory to the repository in the next commit. It offers flexibility to add files to the repository in desired way (in a group or single file per commit). 
+	staging area contains the files to be added from the working directory to the
+	repository in the next commit. It offers flexibility to add files to the
+	repository in desired way (in a group or single file per commit).
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+		This can be done  by adding all the files to be commited in a single commit
+		first to the staging area. And then commiting them all at once.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+		Branches are helpful to work on features which are needed to be tested
+		seperately before adding to the project. Branches help by creating readable
+		labels for commits and making checkng out those commits easier.
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams help to visulize the branches and their reachability.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+		Merging two branches merges the files and sets the tip to the current
+		checked out branch. It also deletes the lebel of the ranch which gets merged
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+		Automatic merges are suitable when there are no sensitive merge conflicts.
+		But in case of same code being changed in different ways in different
+		branches automatic merge can't work satisfiably and merging manually makes
+		more sense. 
