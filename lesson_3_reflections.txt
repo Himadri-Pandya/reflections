@@ -1,29 +1,57 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    In case of working from different computers and working with multiple
+    developers on the same project.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    In case of multiple people working on same project, the github repository
+    reflects their commits as and when the push their versions of files. It
+    might not be necessory to have all those updates for me to continue my
+    portion of work. In the worst case, uther developers might change the
+    dependenices needed for my work and having automatic pull can result in
+    inconsitent state of the code I'm writing. Hence, manually pulls are
+    prefered.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork is used for copying a github repository with its previous history under
+    your github profile. It copies the repository on github servers and not on
+    your local machine.
+    Clone is used for copying repositories locally or from github to your local
+    machine.
+    Branches are used for labeling commits.
+    I would use fork instead of clone while copying someone else's github
+    repositories. And i would use clone while copying repositories under my
+    github profile from my local machine.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    To have all recent changes locally and being able to merge the locally
+    modified version with the remote efficiently.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    For collborating without using githb i would need to send the code via email
+    or other transmission method to other developers. I'll also need to use the
+    diff command a lot while getting updates from other in the same way. For
+    discussion of isues i would be needed to rely on explicit communications
+    along with sending and receiving the code. This might tend to be tedious
+    when multiple issues are being discussed with multiple developers.
+    Using git and github fixes all these hazards and makes it easier to focus on
+    the real work by providing quite sofisticated way for version control.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    The later approach will not cauuse aditional overhead of creating  a new
+    branch and merging it again. But it will certainly ulter the master branch
+    itself which might not be desired in case of woking on some specific tasks
+    like developing and testing a new feature or rying to fix an exiisting bug.
+    In such cases the former approach of creating a seperate branch is quite
+    useful to maintain a seperate workflow. 
