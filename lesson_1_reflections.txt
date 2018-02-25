@@ -1,34 +1,28 @@
 
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-    Output of diff makes it easier to spot the changes which nerrows down the search for accurance of the bug. 
+    The output of diff makes it easier to spot the changes which narrow down the search for the occurrence of the bug.
+    
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+    Big projects include enormous lines of code which keep evolving over a period of time. In such scenario, it is very crucial to keep track of changes and maintain integrity when multiple developers are contributing to the same project. Having an easy access to the entire history is efficient in many ways as it helps newcomers to cope up easily and helps the maintainers to review each version and to opt for reverting to previous stable version if anything goes wrong in the new update. 
 
-    Big projects include enormous lines of code which keep evolving over period of time. In such scenario it is very crucial to keep track of changes and maintain integrity when multiper developers are contributing to the same project. Having an easy access to the entire history is efficient in many ways as it helps new comers to cope up easily and helps the maintainers to review each versions and to opt for reverting to previous stable version if anything goes wrong in the new update. 
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
+    The pro is user can make meaningful commits as and when needed as he/she wishes. The con is if the user doesn't do it carefully then commits don't serve in a meaningful way.
 
-    The pro is user can make meaningfull commits as and when needed as he wishes. Con is if user doesn't do it carefully then commits don't serve in meaningful way.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
-
-    Because git is extensively used for files containing code. Such file may be inter-related in order to the dependencies among them. Hence when a single file changes, each fie depending to that file must reflact the changes in order to continue working properly. 
+    Because Git is extensively used for files containing code. Such file may be inter-related in order to the dependencies among them. Hence when a single file changes, each file depending on that file must reflect the changes in order to continue working properly.  
 
 How can you use the commands git log and git diff to view the history of files?
 
-    using git log i can view entire history of the file wth meaningful commit messages and using git diff i can compare two versons of the file and examine the chnages made to them.
+    Using git log I can view the entire history of the file with meaningful commit messages and by using git diff I can compare two versions of the file and examine the changes made to them.
 
-How might using version control make you more confident to make changes that
-could break something?
+How might using version control make you more confident to make changes that could break something?
 
-    I'll be assured that ican always go back if i break something. It will make more confident to try new things and experiment implementing new ideas.
+    I'll be assured that I can always go back if I break something. It will make more confident to try new things and experiment implementing new ideas.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I would like to use git for my the coding exercises I'm learning.
+    I would like to use Git for the files containing my coding assignments.
